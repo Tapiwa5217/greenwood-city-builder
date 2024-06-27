@@ -173,7 +173,7 @@ public class MainMenu : MonoBehaviour
 
         if (_mainMenuFadeValue == 0 && _startingOnePlayerGame == true)
         {
-            SceneManager.LoadScene("TownScene");   // Load character selection scene
+            SceneManager.LoadScene("SampleScene");   // Load character selection scene
         }
     }
 

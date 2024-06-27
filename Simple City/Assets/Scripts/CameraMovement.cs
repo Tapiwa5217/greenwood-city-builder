@@ -13,6 +13,7 @@ namespace SVS
         private void Start()
         {
             gameCamera = GetComponent<Camera>();
+
         }
         public void MoveCamera(Vector3 inputVector)
         {
