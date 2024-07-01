@@ -29,6 +29,15 @@ public class DialogueManager : MonoBehaviour
         Invoke("StartConversation", 0.5f); // Invoke StartConversation after 5 seconds
     }
 
+    void Update()
+    {
+        // Check if the continue button (e.g., space key) is pressed
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            ShowNextMessage();
+        }
+    }
+
     public void StartConversation()
     {
         currentMessageIndex = 0; // Reset the message index

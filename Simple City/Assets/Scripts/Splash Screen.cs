@@ -33,8 +33,8 @@ public class SplashScreen : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
-        Cursor.visible = false;                       //Set the cursor visible state to false
-        Cursor.lockState = CursorLockMode.Locked;     //and lock the cursor
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;     //and lock the cursor
 
         _splashScreenAudio = GetComponent<AudioSource> ();  //Splash screen audio equals the audio source 
         _splashScreenAudio.volume = 0;                 //Audio volume equals zero on start up
