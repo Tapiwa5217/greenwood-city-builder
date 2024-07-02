@@ -236,10 +236,10 @@ MonoBehaviour:
   _mainMenuVerticleInputDelay: 1
   _mainMenuBackground: {fileID: 2800000, guid: d48c64fb5c73d8248a179820a970ea41, type: 3}
   _mainMenuTitle: {fileID: 0}
-  _mainMenuMusic: {fileID: 8300000, guid: b4dd49feb3d43ed469ca25c7166a1d10, type: 3}
-  _mainMenuStartButtonAudio: {fileID: 8300000, guid: de1200247998b4b46b29e9336be4116a,
+  _mainMenuMusic: {fileID: 8300000, guid: 124fe7f0432c19c45b3422907825fcb9, type: 3}
+  _mainMenuStartButtonAudio: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2,
     type: 3}
-  _mainMenuQuitButtonAudio: {fileID: 8300000, guid: 1b2e0fa59bda3d84d8a4c4cc0b0f05ef,
+  _mainMenuQuitButtonAudio: {fileID: 8300000, guid: 19f89c6e740e7447f9e12a8310d3e973,
     type: 3}
   _mainMenuButtonWidth: 100
   _mainMenuButtonHeight: 25

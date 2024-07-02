@@ -158,7 +158,7 @@ MonoBehaviour:
   _splashScreenBackground: {fileID: 2800000, guid: 0bcb5f19363530d4eacf78a09e0ceb71,
     type: 3}
   _splashScreenText: {fileID: 2800000, guid: 1a75539a64baecf4d964b59d012a6f2c, type: 3}
-  _splashScreenMusic: {fileID: 8300000, guid: bc775ff1568947a42a077f44566a0d52, type: 3}
+  _splashScreenMusic: {fileID: 8300000, guid: 711409eed87e3594593f38c377911734, type: 3}
 --- !u!82 &333281254
 AudioSource:
   m_ObjectHideFlags: 0

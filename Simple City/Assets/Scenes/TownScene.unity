@@ -5773,7 +5773,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placementSound: {fileID: 8300000, guid: 7e26c9daf4c32483b9c2790e662d3f1b, type: 3}
-  audioSource: {fileID: 1105030476}
+  backgroundMusic: {fileID: 8300000, guid: 4a2734c7838e1654d9669ec2527981d4, type: 3}
+  sfxAudioSource: {fileID: 1105030476}
+  musicAudioSource: {fileID: 1105030476}
 --- !u!82 &1105030476
 AudioSource:
   m_ObjectHideFlags: 0

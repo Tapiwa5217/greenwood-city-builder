@@ -131,7 +131,7 @@ public class MainMenu : MonoBehaviour
 
     private void MainMenuFadeIn()
     {
-        Debug.Log("MainMenuFadeIn");
+       // Debug.Log("MainMenuFadeIn");
 
         _mainMenuAudio.volume += _mainMenuFadeSpeed * Time.deltaTime;   // Increase the volume of the fade speed
 
@@ -150,7 +150,7 @@ public class MainMenu : MonoBehaviour
 
     private void MainMenuAtIdle()
     {
-        Debug.Log("MainMenuAtIdle");
+        //Debug.Log("MainMenuAtIdle");
 
         if (_startingOnePlayerGame || _quittingGame == true)
         {
@@ -179,7 +179,7 @@ public class MainMenu : MonoBehaviour
 
     private void MainMenuButtonPress()
     {
-        Debug.Log("MainMenuButtonPress");
+      //  Debug.Log("MainMenuButtonPress");
 
         GUI.FocusControl(_mainMenuButtons[_selectedButton]);
 
