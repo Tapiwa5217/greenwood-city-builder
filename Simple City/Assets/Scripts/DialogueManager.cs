@@ -12,9 +12,12 @@ public class DialogueManager : MonoBehaviour
     public ButtonSoundPlayer buttonSoundPlayer; // Reference to the ButtonSoundPlayer
 
     private string[] messages = {
-        "Welcome to the game! Build your city and manage resources wisely.",
-        "Use the currency to build schools, banks, factories, and more.",
-        "Balance education, employment, and economic growth to thrive."
+        "Deep in the heart of a verdant valley, embraced by rolling hills and sparkling rivers, lies a plot of untouched land ripe with potential. From this serene landscape, you envision the foundations of a bustling metropolis, where skyscrapers will one day touch the sky.",
+        "As your city flourishes, prioritize the building of schools and banks. Education is the bedrock of progress, nurturing a skilled workforce and attracting innovative businesses eager to contribute to your city's prosperity.",
+        "Every street and block you plan defines the character of your city. Strategically balance residential areas for families seeking homes, commercial districts for bustling markets, and industrial zones for factories powering economic growth. Your choices will shape not just a city, but a thriving community.",
+        "Managing your city's resources is crucial. Monitor budgets, allocate funds wisely between infrastructure, services, and public amenities. A balanced budget ensures sustainable growth and prosperity.",
+        "Navigate challenges such as traffic congestion, environmental pollution, and ensuring citizen happiness. Implement effective transportation systems, green initiatives, and community services to maintain harmony and growth.",
+        "Click to continue and start building your dream city today!"
     };
 
     private int currentMessageIndex = 0;
